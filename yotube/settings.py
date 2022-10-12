@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-i88#rk+h62*r%d517y^_e0yohe)nwu)3n0mmjzcs#g)r)d5-)e'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-#DEBUG = True
+DEBUG = True
 
-ALLOWED_HOSTS = ['181.143.17.35']
+ALLOWED_HOSTS = ['181.205.82.229']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'misitio',
 ]
 
 MIDDLEWARE = [
