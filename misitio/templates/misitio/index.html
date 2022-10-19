@@ -14,18 +14,18 @@
                        placeholder="Apellidos" name="lname">
 
 
-                <button type="submit" class="btn btn-secondary mb-2">Contame un chiste!</button>
+                <button type="submit" class="btn btn-secondary mb-2">Rodaminetos AG</button>
             </form>
         </div>
         <div class="col-sm-6">
-            <div class="card" style="width: 40rem;">
+            <div class="card" style="width: 20rem;">
                 <div class="card-body">
                     <h5 class="card-title">Chiste</h5>
                     <p class="card-text">
-                        {{ mario }}
+                        {{ joke }} <!--variable joke que llama la api-->
 
                     </p>
-                    <a href="{% url 'Rodamientos' %}" class="card-link">No olvides de pasar por mi portfolio</a>
+                    <a href="{% url 'Rodamientos' %}" class="card-link">Pagina de prueba de rodamientos</a>
                 </div>
             </div>
         </div>

@@ -1,6 +1,12 @@
 from django.shortcuts import render
 from django.http import HttpResponse #Profe......
 from .models import contactenos #profe....
+import requests #profe...
+import json #profe....
+#import email
+#from email.message import Message
+#import re
+
 
 # 1 ejercicio:
     #def index (request):
@@ -8,10 +14,10 @@ from .models import contactenos #profe....
 
 # 2 ejercicio :
 def index (request):
-    return render(request,'misitio/index.html') 
+    return render(request,'misitio/Rodamientos.html') 
 
 def Rodamientos (request):
-    return render(request,'misitio/Rodamientos.html')
+    return render(request,'misitio/index.html')
 
 def contact (request):
     if request.method == 'POST':
@@ -24,4 +30,5 @@ def contact (request):
         return render(request, 'misitio/agradecimiento.html') #retomamoss al sitio nuevamente contacto.html
     else:
         return render(request,'misitio/contactenos.html')    
+
 

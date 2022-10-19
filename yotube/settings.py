@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-i88#rk+h62*r%d517y^_e0yohe)nwu)3n0mmjzcs#g)r)d5-)e
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['181.205.82.229']
+ALLOWED_HOSTS = ['www.rodamientosag.com.co']
 
 
 # Application definition
