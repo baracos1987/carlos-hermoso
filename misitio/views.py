@@ -29,6 +29,9 @@ def contact (request):
        
         return render(request, 'misitio/agradecimiento.html') #retomamoss al sitio nuevamente contacto.html
     else:
-        return render(request,'misitio/contactenos.html')    
+        return render(request,'misitio/contactenos.html')
+
+def menu (request):
+    return render (request, 'misitio/menu.html')            
 
 

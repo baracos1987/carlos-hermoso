@@ -1,0 +1,44 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AMOR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+   
+
+    <!--Estilo para el boton whatsapp-->
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+       
+  </head>
+  <body>
+    <div class="container border"> container con borde dinamico</div>
+    <div class="container-fluid border mt-3"> container con borde pero fijo y un espacios</div>
+
+    <div class="container-sm"> Container-sm </div>
+    <div class="container-md"> Container-md</div>
+    <div class="container-lg"> Container-lg</div>
+    <div class="container-xl"> Container-xl</div>
+    <div class="container-xxl"> Container-xxl</div>
+
+
+
+    <!--container - container-fluid - container border: posiciona las imagenes se ingresa en div si lo agrupamos-->
+    <div class="container"> 
+          <!--Imagen con puntas en curva-->
+          <!--<img class="rounded" src="{%static 'misitio/imagen/gta.png'%}"> -->
+          <!--Imagen quedada con borde pulido-->
+          <!--<img class="img-thumbnail" src="{%static 'misitio/imagen/gta.png'%}"> -->
+          <!--posicion la imagen al inicio con float-start -->
+          <!--<img class= "img-thumbnail float-start" src="{%static 'misitio/imagen/gta2.png'%}"> -->
+          <!--Imagen queda en circulo y el float-end lo posiciona al final-->
+          <!--<img class="rounded-circle float-end" src="{%static 'misitio/imagen/gta.png'%}"> --> 
+          <!--Imagen posicion automatica centrado-->
+          <img class="mx-auto d-block mt-5" src="{%static 'misitio/imagen/gta.png'%}"> 
+          <!-- modificar el tamaño de la imagenwidth y heiht imagen se adacte movimiento pantalla con img-fliud-->
+          <!--<img class="img-fluid" width="650px" height="650px" src="{%static 'misitio/imagen/gta.jpg'%}"> -->
+    </div>
+  </body>
+
+  
